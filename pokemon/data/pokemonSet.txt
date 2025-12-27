@@ -1,0 +1,305 @@
+Pokémon: 217
+1 Charmander TR 50
+1 Charmeleon CG 29
+1 Charizard BS 4
+1 Shining Charizard N4 107
+1 Vulpix EM 72
+1 Ninetales UL 20
+1 Magmar DRX 20
+1 Magmortar SW 31
+1 Moltres FO 12
+1 Cyndaquil HL 59
+1 Quilava UF 45
+1 Typhlosion UF 17
+1 Slugma N4 82
+1 Magcargo CES 24
+1 Entei N3 17
+1 Ho-Oh SW 10
+1 Victini BWP 32
+1 Diglett RG 61
+1 Dugtrio E1 10
+1 Geodude MT 84
+1 Graveler DR 30
+1 Golem DR 5
+1 Onix LC 84
+1 Steelix SS 23
+1 Shining Steelix N4 112
+1 Hitmonchan BS 7
+1 Hitmonlee LC 13
+1 Rhyhorn EM 62
+1 Rhydon EM 19
+1 Rhyperior SV 10
+1 Shining Kabutops N4 108
+1 Sudowoodo UF 15
+1 Gligar UF 57
+1 Gliscor LA 5
+1 Larvitar UL 50
+1 Pupitar SF 47
+1 Tyranitar SF 30
+1 Shining Tyranitar N4 113
+1 Nosepass RS 18
+1 Probopass LA 13
+1 Meditite CG 56
+1 Medicham CG 25
+1 Trapinch DR 79
+1 Vibrava DR 22
+1 Flygon DR 4
+1 Groudon CL 6
+1 Pikachu HP 78
+1 Raichu PK 12
+1 Shining Raichu N4 111
+1 Magnemite DS 74
+1 Magneton PK 16
+1 Magnezone SF 5
+1 Voltorb EM 71
+1 Electrode TM 93
+1 Electabuzz BCR 53
+1 Electivire SW 25
+1 Zapdos FO 15
+1 Mareep TRR 67
+1 Flaaffy EVS 55
+1 Ampharos SW 1
+1 Raikou N3 22
+1 Electrike EM 48
+1 Manectric AR 44
+1 Plusle SW 36
+1 Minun MD 25
+1 Bulbasaur MA 39
+1 Ivysaur SV 62
+1 Venusaur BS2 18
+1 Weedle CIN 1
+1 Kakuna RG 36
+1 Beedrill RR 15
+1 Ekans TR 56
+1 Arbok SS 29
+1 Nidoran ♀ E3 82
+1 Nidorina E3 83
+1 Nidoqueen MT 31
+1 Nidoran ♂ RG 71
+1 Nidorino RG 41
+1 Nidoking E2 H18
+1 Oddish BCR 1
+1 Gloom MEW 44
+1 Vileplume LA 45
+1 Bellossom UF 3
+1 Paras SUM 4
+1 Parasect MT 58
+1 Scyther BS2 17
+1 Scizor UD 7
+1 Chikorita LOT 5
+1 Bayleef HS 35
+1 Meganium N1 11
+1 Sunkern UF 76
+1 Sunflora UF 16
+1 Pineco UD 62
+1 Forretress UD 13
+1 Celebi TM 92
+1 Shining Celebi N4 106
+1 Shroomish SW 108
+1 Breloom FFI 50
+1 Cacnea SS 57
+1 Cacturne SS 2
+1 Carnivine P8 7
+1 Squirtle P4 14
+1 Wartortle RG 50
+1 Blastoise BS 2
+1 Psyduck TR 65
+1 Golduck TM 22
+1 Poliwag LA 114
+1 Poliwhirl RG 46
+1 Poliwrath UF 11
+1 Politoed FFI 18
+1 Krabby E1 115
+1 Kingler E1 15
+1 Horsea LOR 35
+1 Seadra LA 70
+1 Kingdra LA 7
+1 Goldeen SV 107
+1 Seaking BKT 28
+1 Lapras HS 24
+1 Magikarp DR 60
+1 Shining Magikarp N3 66
+1 Gyarados SF 19
+1 Shining Gyarados N3 65
+1 Articuno FO 2
+1 Totodile HL 79
+1 Croconaw N1 32
+1 Feraligatr N1 5
+1 Suicune N3 27
+1 Feebas EM 49
+1 Milotic SV SH7
+1 Clamperl HL 58
+1 Huntail GE 42
+1 Gorebyss GE 38
+1 Kyogre CL 12
+1 Zubat PHF 31
+1 Golbat PHF 32
+1 Crobat PHF 33
+1 Abra TWM 80
+1 Kadabra MEW 64
+1 Alakazam MT 2
+1 Slowpoke UF 72
+1 Slowbro UF 13
+1 Slowking UF 14
+1 Exeggcute UNM 73
+1 Exeggutor LA 54
+1 Koffing FCO 27
+1 Weezing GE 31
+1 Mr. Mime E2 95
+1 Mewtwo MD 9
+1 Shining Mewtwo N4 109
+1 Mew TM 97
+1 Misdreavus LM 40
+1 Mismagius UD 19
+1 Lugia N3 20
+1 Ralts RS 68
+1 Kirlia SS 40
+1 Gardevoir RS 7
+1 Spoink DX 76
+1 Grumpig CG 20
+1 Chimecho EM 12
+1 Deoxys DX 16
+1 Deoxys DX 17
+1 Deoxys DX 18
+1 Deoxys EM 2
+1 Jirachi HL 8
+1 Murkrow SS 47
+1 Honchkrow UD 16
+1 Sneasel FLF 50
+1 Weavile UD 25
+1 Houndour E2 87
+1 Houndoom E3 H11
+1 Poochyena DX 70
+1 Mightyena RS 10
+1 Sableye CG 10
+1 Absol DR 1
+1 Skarmory DS 55
+1 Aron TM 56
+1 Lairon RS 37
+1 Aggron PLB 59
+1 Beldum HL 29
+1 Metang LA 64
+1 Metagross LA 10
+1 Rattata BS2 89
+1 Raticate RG 48
+1 Jigglypuff BS2 77
+1 Wigglytuff JU 32
+1 Clefairy HS 60
+1 Clefable E1 7
+1 Meowth NP 13
+1 Persian DS 50
+1 Farfetch'd RG 23
+1 Doduo SV 102
+1 Dodrio UD 11
+1 Kangaskhan E2 88
+1 Tauros RG 16
+1 Eevee UF 55
+1 Flareon RR 19
+1 Jolteon RR 26
+1 Vaporeon RR 34
+1 Espeon DEX 48
+1 Umbreon E3 H30
+1 Shining Noctowl N4 110
+1 Sentret HS 80
+1 Furret HS 21
+1 Dunsparce BKP 90
+1 Slakoth DX 73
+1 Vigoroth PK 41
+1 Slaking RS 12
+1 Skitty RS 70
+1 Delcatty XY 105
+1 Swablu DR 75
+1 Altaria DR 2
+1 Bagon PK 43
+1 Shelgon DR 42
+1 Salamence AR 8
+1 Latias GE 22
+1 Latios GE 23
+1 Rayquaza EM 9
+
+Trainer: 68
+1 Energy Retrieval BLW 92
+1 Poké Ball SUM 125
+1 Energy Search CRZ 128
+1 Pokédex BLW 98
+1 Potion CRZ 139
+1 Switch CRZ 144
+1 Buddy-Buddy Rescue BKT 135
+1 Devolution Spray FCO 95
+1 Energy Recycler BST 124
+1 Familiar Bell DAA 161
+1 Gym Badge XYP 203
+1 Heavy Ball NXD 88
+1 Rare Candy CES 142
+1 Super Rod BKT 149
+1 Super Scoop Up BUS 124
+1 Windstorm CG 85
+1 Copycat CES 127
+1 Wally's Training EM 85
+1 Bill's Maintenance CG 71
+1 Professor Elm's Training Method CL 82
+1 Island Hermit DF 76
+1 Mr. Stone's Project HP 88
+1 Underground Expedition CES 150
+1 Judge FST 235
+1 Team Rocket's Trickery UD 78
+1 Boss's Orders RCL 154
+1 Sightseer LOT 189
+1 Samson Oak UNB 185
+1 Pokémon Nurse E1 145
+1 Emcee's Hype DRI 163
+1 Lana's Aid TWM 155
+1 Lady Outing RS 83
+1 Seeker TM 88
+1 Buck's Training LA 130
+1 Palmer's Contribution SV 139
+1 AZ PHF 91
+1 Healing Field N3 61
+1 Pokémon Tower WP 42
+1 Power Plant E2 139
+1 Low Pressure System DR 86
+1 Magma Basin BRS 144
+1 Meteor Falls DX 89
+1 Drake's Stadium PK 72
+1 Speed Stadium DP 114
+1 Training Center FFI 102
+1 Dyna Tree Hill CRE 135
+1 Primordial Altar SIT 161
+1 Practice Studio PAL 186
+1 Moonlit Hill PAF 81
+1 Community Center TWM 146
+1 Team Rocket's Watchtower DRI 180
+1 Ecogym N1 84
+1 Lake Acuity LOR 160
+1 Mt. Coronet UPR 130
+1 Rocky Helmet SVI 193
+1 Memory Berry PL 110
+1 Star Piece E3 139
+1 Solid Rage UF 92
+1 Sitrus Berry SSH 182
+1 Counter Gain LOT 170
+1 Amulet Coin GE 97
+1 Leftovers MEW 163
+1 Giant Cape DRX 114
+1 Stealthy Hood UNB 186
+1 Ear-Ringing Bell UNM 194
+1 Vitality Band SSH 185
+1 Spirit Mask EVS 160
+1 Powerglass SFA 63
+
+Energy: 15
+1 Fire Energy HS 116
+1 Fighting Energy HS 120
+1 Lightning Energy HS 118
+1 Grass Energy HS 115
+1 Water Energy HS 117
+1 Psychic Energy HS 119
+1 Darkness Energy CL 94
+1 Metal Energy CL 95
+1 Bounce Energy E3 142
+1 Crystal Energy E2 146
+1 Draw Energy CEC 209
+1 Heal Energy DX 94
+1 Recycle Energy UNM 212
+1 Double Rainbow Energy MA 88
+1 Miracle Energy N4 16
