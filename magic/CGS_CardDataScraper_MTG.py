@@ -1,9 +1,11 @@
 import json
 import requests
 import re
+import os
 
-INPUT_FILE = "mtg_list.txt"
-OUTPUT_JSON = "mtg_cards.json"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+INPUT_FILE = os.path.join(script_dir, "mtg_list.txt")
+OUTPUT_JSON = os.path.join(script_dir, "mtg_cards.json")
 
 COLOR_MAP = {
     "W": "white",
@@ -25,11 +27,28 @@ TYPE_MAP = {
     "Battle": "battle"
 }
 
+VALID_SUPERTYPES = {
+    "Basic",
+    "Legendary",
+    "Ongoing",
+    "Snow",
+    "World"
+}
+
+VALID_TYPES = {
+    "Creature",
+    "Planeswalker",
+    "Sorcery",
+    "Instant",
+    "Artifact",
+    "Enchantment",
+    "Land",
+    "Battle",
+    "Kindred"
+}
+
+
 def parse_line(line):
-    """
-    Example:
-    1 Kytheon, Hero of Akros / Gideon, Battle-Forged (ORI) 23
-    """
     match = re.match(r"\d+\s+(.+?)\s+\(([^)]+)\)\s+(.+)", line)
     if not match:
         return None
@@ -39,6 +58,7 @@ def parse_line(line):
     collector_number = match.group(3)
 
     return name, set_code, collector_number
+
 
 def fetch_card(name, set_code, collector_number):
     url = (
@@ -51,14 +71,19 @@ def fetch_card(name, set_code, collector_number):
     r.raise_for_status()
     return r.json()
 
+
 def normalize_card_data(data):
-    """
-    Use the first face for double-faced cards and tokens.
-    Prefer face colors if available.
-    """
+    backside_url = ""
+
+    # Double-faced / transform cards
     if "card_faces" in data and isinstance(data["card_faces"], list):
         face = data["card_faces"][0]
         face_colors = face.get("colors")
+
+        # Extract backside image if present
+        if len(data["card_faces"]) > 1:
+            backside = data["card_faces"][1]
+            backside_url = backside.get("image_uris", {}).get("large", "")
 
         return {
             "name": face.get("name", data.get("name")),
@@ -67,7 +92,8 @@ def normalize_card_data(data):
             "toughness": face.get("toughness"),
             "image_uris": face.get("image_uris", {}),
             "colors": face_colors if face_colors is not None else data.get("colors", []),
-            "cmc": data.get("cmc", 0)
+            "cmc": data.get("cmc", 0),
+            "backside_url": backside_url
         }
 
     return {
@@ -77,19 +103,41 @@ def normalize_card_data(data):
         "toughness": data.get("toughness"),
         "image_uris": data.get("image_uris", {}),
         "colors": data.get("colors", []),
-        "cmc": data["cmc"]
+        "cmc": data["cmc"],
+        "backside_url": ""
     }
 
+
 def normalize_type_line(type_line):
-    # Replace Unicode em dash with ASCII hyphen
     return type_line.replace("\u2014", "-")
 
-def extract_types(type_line):
+
+def extract_super_and_types(type_line):
+    normalized = normalize_type_line(type_line)
+
+    left_side = normalized.split("-")[0].strip()
+    tokens = left_side.split()
+
+    supertypes = []
+    types = []
+
+    for token in tokens:
+        if token in VALID_SUPERTYPES:
+            supertypes.append(token)
+        elif token in VALID_TYPES:
+            types.append(token)
+
+    return supertypes, types
+
+
+def extract_types_for_cube(type_line):
     normalized = normalize_type_line(type_line)
     main_types = normalized.split("-")[0].strip().split()
+
     return list({
         TYPE_MAP[t] for t in main_types if t in TYPE_MAP
     })
+
 
 def extract_grouping(type_line):
     normalized = normalize_type_line(type_line)
@@ -97,6 +145,7 @@ def extract_grouping(type_line):
         return []
     subtypes = normalized.split("-", 1)[1]
     return [s.strip() for s in subtypes.split()]
+
 
 def parse_pt(value):
     if value is None:
@@ -107,6 +156,7 @@ def parse_pt(value):
         return int(value)
     except ValueError:
         return 0
+
 
 def main():
     cards = []
@@ -124,21 +174,20 @@ def main():
             name, set_code, collector_number = parsed
             raw_data = fetch_card(name, set_code, collector_number)
             print(f"[OK] {name} ({set_code.upper()} {collector_number})")
+
             data = normalize_card_data(raw_data)
 
             raw_colors = data.get("colors", [])
 
             if not raw_colors:
-              colors = ["colorless"]
+                colors = ["colorless"]
             else:
-              colors = [
-                COLOR_MAP[c] for c in raw_colors
-                if c in COLOR_MAP
-              ]
-
+                colors = [COLOR_MAP[c] for c in raw_colors if c in COLOR_MAP]
 
             grouping = extract_grouping(data["type_line"])
-            types = extract_types(data["type_line"])
+
+            cube_types = extract_types_for_cube(data["type_line"])
+            supertypes, card_types = extract_super_and_types(data["type_line"])
 
             power = parse_pt(data.get("power"))
             toughness = parse_pt(data.get("toughness"))
@@ -152,12 +201,15 @@ def main():
                 "grouping": grouping,
                 "large-img": data["image_uris"].get("large", ""),
                 "small-img": data["image_uris"].get("small", ""),
+                "backside-url": data.get("backside_url", ""),
                 "rank": cmc,
                 "dmg": power,
                 "def": toughness,
                 "cost": cmc,
                 "game-id": "Magic: The Gathering",
-                "types": types
+                "types": cube_types,
+                "Type": card_types,
+                "Supertype": supertypes
             }
 
             cards.append(card)
@@ -166,6 +218,7 @@ def main():
         json.dump(cards, out, indent=4, ensure_ascii=False)
 
     print(f"Exported {len(cards)} Magic cards.")
+
 
 if __name__ == "__main__":
     main()
