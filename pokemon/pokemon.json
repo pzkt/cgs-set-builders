@@ -1,23 +1,5 @@
 [
   {
-      "id": "ecard2-95",
-      "name": "Mr. Mime",
-      "dmg": 2,
-      "def": 5,
-      "rank": 0,
-      "small-img": "https://images.pokemontcg.io/ecard2/95.png",
-      "grouping": [],
-      "colors": [
-        "purple"
-      ],
-      "game-id": "Pokemon",
-      "cost": 0,
-      "large-img": "https://images.pokemontcg.io/ecard2/95_hires.png",
-      "types": [
-        "summon"
-      ]
-  },
-  {
     "game-id": "pokemon",
     "id": "base5-50",
     "name": "Charmander",
@@ -33,7 +15,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -51,7 +35,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -69,7 +55,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -87,7 +75,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -105,7 +95,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -123,7 +115,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -141,7 +135,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -159,7 +155,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -177,7 +175,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -195,7 +195,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -213,7 +215,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -231,7 +235,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -249,7 +255,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -267,7 +275,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -285,7 +295,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -303,7 +315,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -321,7 +335,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -339,7 +355,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -357,7 +375,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -375,7 +395,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -393,7 +415,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -411,7 +435,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -429,7 +455,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -447,7 +475,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -465,7 +495,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -483,7 +515,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -501,7 +535,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -519,7 +555,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -537,7 +575,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -555,7 +595,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -573,7 +615,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -591,7 +635,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -609,7 +655,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -627,7 +675,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -645,7 +695,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -663,7 +715,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -681,7 +735,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -699,7 +755,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -717,7 +775,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -735,7 +795,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -753,7 +815,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -771,7 +835,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -789,7 +855,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -807,7 +875,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -825,7 +895,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -843,7 +915,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -861,7 +935,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -879,7 +955,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -897,7 +975,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -915,7 +995,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -933,7 +1015,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -951,7 +1035,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -969,7 +1055,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -987,7 +1075,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1005,7 +1095,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1023,7 +1115,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1041,7 +1135,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1059,7 +1155,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1077,7 +1175,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1095,7 +1195,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1113,7 +1215,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1131,7 +1235,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1149,7 +1255,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1167,7 +1275,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1185,7 +1295,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1203,7 +1315,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1221,7 +1335,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1239,7 +1355,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1257,7 +1375,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1275,7 +1395,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1293,7 +1415,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1311,7 +1435,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1329,7 +1455,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1347,7 +1475,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1365,7 +1495,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1383,7 +1515,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1401,7 +1535,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1419,7 +1555,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1437,7 +1575,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1455,7 +1595,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1473,7 +1615,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1491,7 +1635,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1509,7 +1655,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1527,7 +1675,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1545,7 +1695,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1563,7 +1715,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1581,7 +1735,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1599,7 +1755,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1617,7 +1775,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1635,7 +1795,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1653,7 +1815,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1671,7 +1835,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1689,7 +1855,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1707,7 +1875,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1725,7 +1895,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1743,7 +1915,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1761,7 +1935,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1779,7 +1955,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1797,7 +1975,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1815,7 +1995,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1833,7 +2015,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1851,7 +2035,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1869,7 +2055,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1887,7 +2075,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1905,7 +2095,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1923,7 +2115,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1941,7 +2135,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1959,7 +2155,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1977,7 +2175,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -1995,7 +2195,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2013,7 +2215,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2031,7 +2235,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2049,7 +2255,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2067,7 +2275,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2085,7 +2295,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2103,7 +2315,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2121,7 +2335,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2139,7 +2355,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2157,7 +2375,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2175,7 +2395,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2193,7 +2415,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2211,7 +2435,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2229,7 +2455,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2247,7 +2475,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2265,7 +2495,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2283,7 +2515,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2301,7 +2535,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2319,7 +2555,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2337,7 +2575,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2355,7 +2595,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2373,7 +2615,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2391,7 +2635,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2409,7 +2655,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2427,7 +2675,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2445,7 +2695,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2463,7 +2715,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2481,7 +2735,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2499,7 +2755,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2517,7 +2775,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2535,7 +2795,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2553,7 +2815,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2571,7 +2835,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2589,7 +2855,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2607,7 +2875,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2625,7 +2895,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2643,7 +2915,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2661,7 +2935,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2679,7 +2955,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2697,7 +2975,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2715,7 +2995,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2733,7 +3015,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2751,7 +3035,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2769,7 +3055,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2787,7 +3075,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2805,7 +3095,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2823,7 +3115,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2841,7 +3135,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2859,7 +3155,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2877,7 +3175,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2895,7 +3195,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2913,7 +3215,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2931,7 +3235,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2950,7 +3256,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2968,7 +3276,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -2986,7 +3296,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3004,7 +3316,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3022,7 +3336,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3040,7 +3356,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3058,7 +3376,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3076,7 +3396,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3094,7 +3416,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3112,7 +3436,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3130,7 +3456,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3148,7 +3476,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3166,7 +3496,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3184,7 +3516,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3202,7 +3536,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3220,7 +3556,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3238,7 +3576,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3256,7 +3596,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3274,7 +3616,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3292,7 +3636,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3310,7 +3656,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3328,7 +3676,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3346,7 +3696,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3364,7 +3716,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3382,7 +3736,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3400,7 +3756,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3418,7 +3776,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3436,7 +3796,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3454,7 +3816,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3472,7 +3836,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3490,7 +3856,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3508,7 +3876,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3526,7 +3896,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3544,7 +3916,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3562,7 +3936,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3580,7 +3956,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3598,7 +3976,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3616,7 +3996,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3634,7 +4016,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3652,7 +4036,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3670,7 +4056,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3688,7 +4076,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3706,7 +4096,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3724,7 +4116,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3742,7 +4136,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3760,7 +4156,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3778,7 +4176,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3796,7 +4196,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3814,7 +4216,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3832,7 +4236,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3850,7 +4256,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3868,7 +4276,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3886,7 +4296,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3904,7 +4316,9 @@
     "grouping": [],
     "types": [
       "summon"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3922,7 +4336,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3940,7 +4356,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3958,7 +4376,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3976,7 +4396,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -3994,7 +4416,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4012,7 +4436,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4030,7 +4456,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4048,7 +4476,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4066,7 +4496,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4084,7 +4516,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4102,7 +4536,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4120,7 +4556,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4138,7 +4576,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4156,7 +4596,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4174,7 +4616,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4192,7 +4636,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4210,7 +4656,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4228,7 +4676,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4246,7 +4696,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4264,7 +4716,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4282,7 +4736,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4300,7 +4756,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4318,7 +4776,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4336,7 +4796,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4354,7 +4816,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4372,7 +4836,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4390,7 +4856,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4408,7 +4876,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4426,7 +4896,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4444,7 +4916,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4462,7 +4936,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4480,7 +4956,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4498,7 +4976,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4516,7 +4996,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4534,7 +5016,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4552,7 +5036,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4570,7 +5056,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4588,7 +5076,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4606,7 +5096,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4624,7 +5116,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4642,7 +5136,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4660,7 +5156,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4678,7 +5176,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4696,7 +5196,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4714,7 +5216,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4732,7 +5236,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4750,7 +5256,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4768,7 +5276,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4786,7 +5296,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4804,7 +5316,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4822,7 +5336,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4840,7 +5356,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4858,7 +5376,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4876,7 +5396,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4894,7 +5416,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4912,7 +5436,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4930,7 +5456,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4948,7 +5476,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4966,7 +5496,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -4984,7 +5516,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -5002,7 +5536,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -5020,7 +5556,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -5038,7 +5576,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -5056,7 +5596,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -5074,7 +5616,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -5092,7 +5636,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -5110,7 +5656,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -5128,7 +5676,9 @@
     "grouping": [],
     "types": [
       "backrow"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -5139,14 +5689,16 @@
     "large-img": "https://assets.tcgdex.net/en/hgss/hgss1/116/high.webp",
     "rank": "rankless",
     "colors": [
-      "red"
+      "colorless"
     ],
     "def": 0.0,
     "dmg": 0,
     "grouping": [],
     "types": [
       "resource"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -5157,14 +5709,16 @@
     "large-img": "https://assets.tcgdex.net/en/hgss/hgss1/120/high.webp",
     "rank": "rankless",
     "colors": [
-      "red"
+      "colorless"
     ],
     "def": 0.0,
     "dmg": 0,
     "grouping": [],
     "types": [
       "resource"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -5175,14 +5729,16 @@
     "large-img": "https://assets.tcgdex.net/en/hgss/hgss1/118/high.webp",
     "rank": "rankless",
     "colors": [
-      "white"
+      "colorless"
     ],
     "def": 0.0,
     "dmg": 0,
     "grouping": [],
     "types": [
       "resource"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -5193,14 +5749,16 @@
     "large-img": "https://assets.tcgdex.net/en/hgss/hgss1/115/high.webp",
     "rank": "rankless",
     "colors": [
-      "green"
+      "colorless"
     ],
     "def": 0.0,
     "dmg": 0,
     "grouping": [],
     "types": [
       "resource"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -5211,14 +5769,16 @@
     "large-img": "https://assets.tcgdex.net/en/hgss/hgss1/117/high.webp",
     "rank": "rankless",
     "colors": [
-      "blue"
+      "colorless"
     ],
     "def": 0.0,
     "dmg": 0,
     "grouping": [],
     "types": [
       "resource"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -5229,14 +5789,16 @@
     "large-img": "https://assets.tcgdex.net/en/hgss/hgss1/119/high.webp",
     "rank": "rankless",
     "colors": [
-      "purple"
+      "colorless"
     ],
     "def": 0.0,
     "dmg": 0,
     "grouping": [],
     "types": [
       "resource"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -5247,7 +5809,7 @@
     "large-img": "https://assets.tcgdex.net/en/col/col1/94/high.webp",
     "rank": 0,
     "colors": [
-      "black"
+      "colorless"
     ],
     "def": "",
     "dmg": 0,
@@ -5255,7 +5817,9 @@
     "types": [
       "summon",
       "resource"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -5266,7 +5830,7 @@
     "large-img": "https://assets.tcgdex.net/en/col/col1/95/high.webp",
     "rank": 0,
     "colors": [
-      "black"
+      "colorless"
     ],
     "def": "",
     "dmg": 0,
@@ -5274,7 +5838,9 @@
     "types": [
       "summon",
       "resource"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -5292,7 +5858,9 @@
     "grouping": [],
     "types": [
       "resource"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -5310,7 +5878,9 @@
     "grouping": [],
     "types": [
       "resource"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -5328,7 +5898,9 @@
     "grouping": [],
     "types": [
       "resource"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -5346,7 +5918,9 @@
     "grouping": [],
     "types": [
       "resource"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -5364,7 +5938,9 @@
     "grouping": [],
     "types": [
       "resource"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -5382,7 +5958,9 @@
     "grouping": [],
     "types": [
       "resource"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   },
   {
     "game-id": "pokemon",
@@ -5400,6 +5978,8 @@
     "grouping": [],
     "types": [
       "resource"
-    ]
+    ],
+    "Supertype": [],
+    "Subtype": []
   }
 ]
