@@ -1,5 +1,23 @@
 [
   {
+      "id": "ecard2-95",
+      "name": "Mr. Mime",
+      "dmg": 2,
+      "def": 5,
+      "rank": 0,
+      "small-img": "https://images.pokemontcg.io/ecard2/95.png",
+      "grouping": [],
+      "colors": [
+        "purple"
+      ],
+      "game-id": "Pokemon",
+      "cost": 0,
+      "large-img": "https://images.pokemontcg.io/ecard2/95_hires.png",
+      "types": [
+        "summon"
+      ]
+  },
+  {
     "game-id": "pokemon",
     "id": "base5-50",
     "name": "Charmander",

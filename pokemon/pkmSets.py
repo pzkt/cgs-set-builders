@@ -1,10 +1,13 @@
 import json
 import csv
+import os
 
-with open('data/pokemonSetInfo.json', 'r') as file:
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+with open(os.path.join(script_dir, 'data/pokemonSetInfo.json'), 'r') as file:
     data = json.load(file)
 
-with open('data/pokemonSet.txt', 'r') as file:
+with open(os.path.join(script_dir, 'data/pokemonSet.txt'), 'r') as file:
     count = 0
     for line in file:
         line_arr = line.strip().split()
