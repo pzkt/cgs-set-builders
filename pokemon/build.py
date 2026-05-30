@@ -25,10 +25,6 @@ def build_code(result, card_set, line_arr, padded):
 	return code
 
 
-# -------------------------
-# NEW NORMALIZATION RULES
-# -------------------------
-
 VALID_SUPERTYPES = {
 	"Prism Star",
 	"ex",
@@ -50,7 +46,7 @@ VALID_TRAINER_SUBTYPES = {
 def buildData(card):
 	data = {}
 
-	data["game-id"] = "pokemon"
+	data["game-id"] = "Pokemon"
 	data["id"] = card.id
 	data["name"] = card.name
 	data["cost"] = 0
@@ -62,9 +58,7 @@ def buildData(card):
 		data["small-img"] = "NONE"
 		data["large-img"] = "NONE"
 
-	# -------------------------
-	# Rank
-	# -------------------------
+	
 	match card.stage:
 		case "Basic":
 			data["rank"] = 0
@@ -78,9 +72,6 @@ def buildData(card):
 	if card.category == "Trainer":
 		data["rank"] = "trainer"
 
-	# -------------------------
-	# Colors
-	# -------------------------
 	types = card.types
 	colors = []
 
@@ -109,17 +100,12 @@ def buildData(card):
 
 	data["colors"] = colors
 
-	# -------------------------
-	# DEF
-	# -------------------------
 	if card.hp is None:
 		data["def"] = ""
 	else:
 		data["def"] = int(card.hp) / 10
 
-	# -------------------------
-	# DMG
-	# -------------------------
+
 	if card.attacks is None:
 		data["dmg"] = 0
 	else:
@@ -131,14 +117,10 @@ def buildData(card):
 		]
 		data["dmg"] = max(damage_numbers) / 10 if damage_numbers else 0
 
-	# -------------------------
-	# Grouping
-	# -------------------------
+
 	data["grouping"] = []
 
-	# -------------------------
-	# Existing cube gameplay tags
-	# -------------------------
+
 	type_tags = []
 
 	card_stage = getattr(card, 'stage', None)
@@ -159,11 +141,7 @@ def buildData(card):
 
 	data['types'] = list(dict.fromkeys(type_tags))
 
-	# ==========================================================
-	# NEW: Supertype + Subtype
-	# ==========================================================
-
-	# ---- Supertype ----
+	# Supertype + Subtype
 	supertypes = []
 	for s in card_subtypes:
 		if s in VALID_SUPERTYPES:
@@ -171,7 +149,6 @@ def buildData(card):
 
 	data["Supertype"] = list(dict.fromkeys(supertypes))
 
-	# ---- Subtype (Trainer only) ----
 	subtypes = []
 	if card_super == "Trainer":
 		for s in card_subtypes:
