@@ -1,7 +1,7 @@
 [project]
 name = "cgs-set-builders"
 version = "0.1.0"
-description = "Add your description here"
+description = "scripts to create the cgs json set fromat"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
