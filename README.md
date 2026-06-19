@@ -1,5 +1,5 @@
 # CGS set builders
-a bunch of scripts to turn exported decks from different card game websites into the cgs json set format.
+a bunch of scripts to turn exported decks from different card game websites into the cgs json set format
 ## cgs json set format
 The cgs json set format is just a json  array of card objects. The card objects have the following fields
 ```json
