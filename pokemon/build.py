@@ -165,9 +165,9 @@ with open(os.path.join(script_dir, 'data/pokemonSetInfo.json'), 'r') as file:
 
 tcgdex = TCGdex()
 
-with open(os.path.join(script_dir, 'data/pokemonSet.txt'), 'r') as file:
+with open(os.path.join(script_dir,'..', 'input.txt'), 'r') as file:
 	output = []
-	output_path = os.path.join(script_dir, 'pokemon.json')
+	output_path = os.path.join(script_dir,'..', 'output.json')
 
 	for line in file:
 		line_arr = line.strip().split()

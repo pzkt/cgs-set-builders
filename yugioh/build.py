@@ -6,8 +6,8 @@ import time
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
-CSV_FILE = os.path.join(script_dir, "yugioh-cube.csv")
-OUTPUT_JSON = os.path.join(script_dir, "yugioh_cards.json")
+CSV_FILE = os.path.join(script_dir,'..', "input.txt")
+OUTPUT_JSON = os.path.join(script_dir,'..', "output.json")
 CACHE_FILE = os.path.join(script_dir, "ygoprodeck_cache.json")
 
 ATTRIBUTE_COLORS = {

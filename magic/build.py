@@ -6,8 +6,8 @@ import time
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
-INPUT_FILE = os.path.join(script_dir, "mtg_list.txt")
-OUTPUT_JSON = os.path.join(script_dir, "mtg_cards.json")
+INPUT_FILE = os.path.join(script_dir,'..', "input.txt")
+OUTPUT_JSON = os.path.join(script_dir,'..', "output.json")
 CACHE_FILE = os.path.join(script_dir, "scryfall_cache.json")
 
 COLOR_MAP = {
