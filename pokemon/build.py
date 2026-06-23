@@ -1,16 +1,15 @@
+import logging
 import json
 import re
 from tcgdexsdk import TCGdex
 import asyncio
 import os
+import sys
+
+if "INFO" in sys.argv:
+	logging.getLogger().setLevel(logging.INFO)
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-
-def write_log(level, msg):
-	pass
-
-def write_exception(msg):
-	print(f"EXCEPTION: {msg}\n")
 
 async def getCard(name):
 	return await tcgdex.card.get(name)
@@ -43,7 +42,8 @@ VALID_TRAINER_SUBTYPES = {
 }
 
 
-def buildData(card):
+def buildData(card, line):
+	logging.info(f"building card: {card}")
 	data = {}
 
 	data["game-id"] = "Pokemon"
@@ -120,45 +120,49 @@ def buildData(card):
 
 	data["grouping"] = []
 
-
 	type_tags = []
 
 	card_stage = getattr(card, 'stage', None)
-	card_super = getattr(card, 'supertype', None)
 	card_category = getattr(card, 'category', None)
-	card_subtypes = getattr(card, 'subtypes', None) or []
 
 	if card_stage not in (None, ''):
 		type_tags.append('summon')
-	elif card_super and str(card_super).lower().startswith('pok'):
-		type_tags.append('summon')
 
-	if card_category == 'Trainer' or card_super == 'Trainer':
+	if card_category == 'Trainer':
 		type_tags.append('backrow')
 
-	if card_super == 'Energy' or card_category == 'Energy':
+	if card_category == 'Energy':
 		type_tags.append('resource')
 
 	data['types'] = list(dict.fromkeys(type_tags))
 
-	# Supertype + Subtype
+	# Supertype
 	supertypes = []
-	for s in card_subtypes:
-		if s in VALID_SUPERTYPES:
-			supertypes.append(s)
+	if "ace spec" in card.rarity.lower():
+		supertypes.append('Ace SPEC')
 
-	data["Supertype"] = list(dict.fromkeys(supertypes))
+	if card_category == 'Energy':
+		if card.energyType == 'Special':
+			supertypes.append("Special")
+		elif card.energyType == "Normal":
+			supertypes.append("Basic")
+	
+	if "Prism Star" in line:
+		supertypes.append("Prism Star")
+	
+	if not (str(card.abilities) == "None"):
+		supertypes.append("Rulebox")
 
+	data["supertype"] = supertypes
+
+	# Subtype
 	subtypes = []
-	if card_super == "Trainer":
-		for s in card_subtypes:
-			if s in VALID_TRAINER_SUBTYPES:
-				subtypes.append(s)
+	if card_category == "Trainer" and card.trainerType:
+		subtypes.append(card.trainerType)
 
-	data["Subtype"] = list(dict.fromkeys(subtypes))
+	data["Subtype"] = subtypes
 
 	return data
-
 
 with open(os.path.join(script_dir, 'data/pokemonSetInfo.json'), 'r') as file:
 	data = json.load(file)
@@ -174,13 +178,15 @@ with open(os.path.join(script_dir,'..', 'input.txt'), 'r') as file:
 		if len(line_arr) < 4:
 			continue
 
+		logging.info(f'processing line: {line}')
+
 		result = next(
 			(item for item in data if item.get("ptcgoCode", None) == line_arr[-2]),
 			None
 		)
 
 		if result is None:
-			exit(1)
+			raise NotImplementedError(f"no set: {line_arr[-2]} found in pokemonSetInfo.json for: card {line}")
 
 		card_set = result["id"]
 
@@ -190,17 +196,17 @@ with open(os.path.join(script_dir,'..', 'input.txt'), 'r') as file:
 			try:
 				card = asyncio.run(getCard(build_code(result, card_set, line_arr, True)))
 			except:
-				write_exception(f"Failed to fetch card for line: {line.strip()}")
-				card = None
+				raise ConnectionError(f"Failed to fetch card for url: {build_code(result, card_set, line_arr, True)}")
 
 		if card is None:
 			continue
 
-		final_data = buildData(card)
+		final_data = buildData(card, line)
 		output.append(final_data)
 
 	try:
 		with open(output_path, 'w') as out_file:
 			json.dump(output, out_file, indent=2)
+		logging.info(f"-- all cards built - no errors --")
 	except Exception:
-		write_exception('ERROR writing output file')
+		raise BaseException("couldn't write to output file :(")

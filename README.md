@@ -37,6 +37,9 @@ an example card could look like this
         "def": 1.2,
         "cost": 0,
         "game-id": "Yu-Gi-Oh!",
+        "subtype":[
+            "Insect"
+        ],
         "types": [
             "summon"
         ],
@@ -58,8 +61,10 @@ For a better understanding of these fields, read the [rules document](https://do
 ## how to use
 1. Download this repository
 2. Navigate to where you downloaded it
-3. Copy and paste the exported deck into the provided `input.txt` file
+3. Copy and paste the exported deck from the deck building website into the provided `input.txt` file
 4. Download [uv](https://docs.astral.sh/uv/#installation) and generate an `output.json` file with the command:  
   `uv run <game-folder-name>/build.py` where `<game-folder-name>` is the folder name of where the build script of the particular game is in. (as an example: for a magic deck, use `uv run magic/build.py`)
 
-alternatively, just call the scripts directly with your local python version. You'll figure it out, I'm sure of it :)
+pass in `INFO` as an argument to get more logs for debugging (`uv run <game-folder-name/build.py INFO`)
+  
+alternatively to uv, just call the scripts directly with your local python version. You'll figure it out, I'm sure of it :)

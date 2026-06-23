@@ -3006,5 +3006,18 @@
   {
     "ptcgoCode": "P4",
     "id": "pop4"
+  },
+  {
+    "ptcgoCode": "DPP",
+    "id": "dpp",
+    "prefix": "DP"
+  },
+  {
+    "ptcgoCode": "P9",
+    "id": "pop9"
+  },
+  {
+    "ptcgoCode": "POR",
+    "id": "me03"
   }
 ]
