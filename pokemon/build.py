@@ -14,10 +14,9 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 async def getCard(name):
 	return await tcgdex.card.get(name)
 
-def build_code(result, card_set, line_arr, padded):
+def build_code(result, card_set, line_arr, padding):
 	number = line_arr[-1]
-	if padded is True:
-		number = number.zfill(3)
+	number = number.zfill(padding)
 	code = card_set + "-" + number
 	if "prefix" in result:
 		code = card_set + "-" + result["prefix"] + number
@@ -149,9 +148,6 @@ def buildData(card, line):
 	
 	if "Prism Star" in line:
 		supertypes.append("Prism Star")
-	
-	if not (str(card.abilities) == "None"):
-		supertypes.append("Rulebox")
 
 	data["supertype"] = supertypes
 
@@ -190,13 +186,14 @@ with open(os.path.join(script_dir,'..', 'input.txt'), 'r') as file:
 
 		card_set = result["id"]
 
-		try:
-			card = asyncio.run(getCard(build_code(result, card_set, line_arr, False)))
-		except:
-			try:
-				card = asyncio.run(getCard(build_code(result, card_set, line_arr, True)))
+		for i in range(5):
+			try: 
+				card = asyncio.run(getCard(build_code(result, card_set, line_arr, i)))
+				break
 			except:
-				raise ConnectionError(f"Failed to fetch card for url: {build_code(result, card_set, line_arr, True)}")
+				logging.info(f"adding more padding (now: {i})")
+			if i == 4:
+				raise ConnectionError(f"Failed to fetch card for id: {build_code(result, card_set, line_arr, True)} \n from line: {line}")
 
 		if card is None:
 			continue
