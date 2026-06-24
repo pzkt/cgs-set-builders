@@ -14,10 +14,10 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 async def getCard(name):
 	return await tcgdex.card.get(name)
 
-def build_code(result, card_set, line_arr, padding):
+def build_code(result, card_set, line_arr, padding, suffix):
 	number = line_arr[-1]
 	number = number.zfill(padding)
-	code = card_set + "-" + number
+	code = card_set + "-" + number + suffix
 	if "prefix" in result:
 		code = card_set + "-" + result["prefix"] + number
 	return code
@@ -186,14 +186,20 @@ with open(os.path.join(script_dir,'..', 'input.txt'), 'r') as file:
 
 		card_set = result["id"]
 
-		for i in range(5):
-			try: 
-				card = asyncio.run(getCard(build_code(result, card_set, line_arr, i)))
+		card = None
+		for suffix in ["","a", "b","end"]:
+			for i in range(5):
+				try: 
+					logging.info(f"trying to fetch: {build_code(result, card_set, line_arr, i,suffix)}")
+					card = asyncio.run(getCard(build_code(result, card_set, line_arr, i,suffix)))
+					break
+				except:
+					logging.info(f"adding more padding (now: {i})")
+				if i == 4 and suffix == "end":
+					raise ConnectionError(f"Failed to fetch card for id: {build_code(result, card_set, line_arr, i, suffix)} \n from line: {line}")
+			if card is not None:
 				break
-			except:
-				logging.info(f"adding more padding (now: {i})")
-			if i == 4:
-				raise ConnectionError(f"Failed to fetch card for id: {build_code(result, card_set, line_arr, True)} \n from line: {line}")
+			logging.info(f"testing other suffix")
 
 		if card is None:
 			continue
