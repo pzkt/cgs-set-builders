@@ -124,7 +124,7 @@ def buildData(card, line):
 	card_stage = getattr(card, 'stage', None)
 	card_category = getattr(card, 'category', None)
 
-	if card_stage not in (None, ''):
+	if card_category == 'Pokemon':
 		type_tags.append('summon')
 
 	if card_category == 'Trainer':
