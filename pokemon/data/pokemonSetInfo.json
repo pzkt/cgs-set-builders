@@ -1910,22 +1910,8 @@
     }
   },
   {
-    "id": "sm75",
-    "name": "Dragon Majesty",
-    "series": "Sun & Moon",
-    "printedTotal": 70,
-    "total": 80,
-    "legalities": {
-      "unlimited": "Legal",
-      "expanded": "Legal"
-    },
-    "ptcgoCode": "DRM",
-    "releaseDate": "2018/09/07",
-    "updatedAt": "2018/10/01 21:54:00",
-    "images": {
-      "symbol": "https://images.pokemontcg.io/sm75/symbol.png",
-      "logo": "https://images.pokemontcg.io/sm75/logo.png"
-    }
+    "id": "sm7.5",
+    "ptcgoCode": "DRM"
   },
   {
     "id": "mcd18",

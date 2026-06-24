@@ -4,7 +4,7 @@ import asyncio
 dex = TCGdex()
 
 async def main():
-    print(await dex.card.get("me01-087"))
-    #print(await dex.card.list(Query().equal("name", "Poké Ball")))
+    print(await dex.card.get("sm7.5-24"))
+    #print(await dex.card.list(Query().equal("name", "Feraligatr")))
 
 asyncio.run(main())
