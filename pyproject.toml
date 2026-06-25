@@ -5,5 +5,6 @@ description = "scripts to create the cgs json set fromat"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "requests>=2.34.2",
     "tcgdex-sdk>=2.3.0",
 ]

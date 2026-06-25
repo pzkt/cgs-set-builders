@@ -55,7 +55,7 @@ For a better understanding of these fields, read the [rules document](https://do
 
 |Card Game|Deck Builder|Export Instructions|
 |-|-|-|
-|**Magic: the Gathering** | https://moxfield.com|Download > Copy Plain Text|
+|**Magic: the Gathering** | https://moxfield.com|Download > Copy for Moxfield|
 |**Pokémon**|https://my.limitlesstcg.com/builder|Share > Copy as Text|
 |**Yu-Hi-Oh!**|https://ygoprodeck.com/deckbuilder|Download Cube (.csv)|
 ## how to use

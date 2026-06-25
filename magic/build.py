@@ -1,8 +1,13 @@
 import json
 import requests
+import logging
 import re
 import os
+import sys
 import time
+
+if "INFO" in sys.argv:
+	logging.getLogger().setLevel(logging.INFO)
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
@@ -60,7 +65,7 @@ def load_cache():
             with open(CACHE_FILE, "r", encoding="utf-8") as f:
                 return json.load(f)
         except Exception as e:
-            print(f"[CACHE ERROR] Could not load cache: {e}")
+            logging.info(f"[CACHE ERROR] Could not load cache: {e}")
             return {}
     return {}
 
@@ -69,7 +74,7 @@ def save_cache(cache):
         with open(CACHE_FILE, "w", encoding="utf-8") as f:
             json.dump(cache, f, indent=2, ensure_ascii=False)
     except Exception as e:
-        print(f"[CACHE ERROR] Could not save cache: {e}")
+        logging.info(f"[CACHE ERROR] Could not save cache: {e}")
 
 # =========================================================
 # INPUT PARSING
@@ -91,15 +96,22 @@ def parse_line(line):
 # SCRYFALL FETCHING
 # =========================================================
 
+HEADERS = {
+    'User-Agent': 'CardGameSingularityApp',
+    'Accept':'*/*'
+}
+
 def fetch_card(name, set_code, collector_number, cache, retries=3):
 
     cache_key = f"{set_code}_{collector_number}"
 
     # Return cached card immediately
     if cache_key in cache:
-        print(f"[CACHE] {name} ({set_code.upper()} {collector_number})")
+        logging.info(f"[CACHE] {name} ({set_code.upper()} {collector_number})")
         return cache[cache_key]
-
+    
+    # timeout to respect scryfall
+    time.sleep(0.5)
     url = (
         "https://api.scryfall.com/cards/named"
         f"?exact={name}"
@@ -110,7 +122,7 @@ def fetch_card(name, set_code, collector_number, cache, retries=3):
     for attempt in range(retries):
 
         try:
-            r = requests.get(url, timeout=15)
+            r = requests.get(url, timeout=15, headers=HEADERS)
 
             r.raise_for_status()
 
@@ -120,7 +132,7 @@ def fetch_card(name, set_code, collector_number, cache, retries=3):
             cache[cache_key] = data
             save_cache(cache)
 
-            print(f"[FETCH] {name} ({set_code.upper()} {collector_number})")
+            logging.info(f"[FETCH] {name} ({set_code.upper()} {collector_number})")
 
             # Small delay to avoid hammering Scryfall
             time.sleep(0.1)
@@ -129,14 +141,14 @@ def fetch_card(name, set_code, collector_number, cache, retries=3):
 
         except requests.exceptions.RequestException as e:
 
-            print(
+            logging.info(
                 f"[RETRY {attempt + 1}/{retries}] "
                 f"{name} ({set_code.upper()} {collector_number}) -> {e}"
             )
 
             time.sleep(2)
 
-    print(
+    logging.info(
         f"[FAILED] {name} ({set_code.upper()} {collector_number})"
     )
 
@@ -288,7 +300,7 @@ def main():
             parsed = parse_line(line)
 
             if not parsed:
-                print(f"[SKIP] Could not parse line: {line}")
+                logging.info(f"[SKIP] Could not parse line: {line}")
                 continue
 
             name, set_code, collector_number = parsed
@@ -353,7 +365,7 @@ def main():
 
             cards.append(card)
 
-            print(
+            logging.info(
                 f"[OK] {data['name']} | "
                 f"Colors: {colors} | "
                 f"Types: {cube_types}"
@@ -367,10 +379,8 @@ def main():
             indent=4,
             ensure_ascii=False
         )
-
-    print("")
-    print(f"Exported {len(cards)} Magic cards.")
-    print(f"Cache saved to: {CACHE_FILE}")
+    logging.info(f"\nExported {len(cards)} Magic cards.")
+    logging.info(f"Cache saved to: {CACHE_FILE}")
 
 # =========================================================
 
